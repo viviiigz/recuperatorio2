@@ -1,13 +1,13 @@
  import express from 'express';
  import dotenv from 'dotenv';
  import sequelize from './src/config/database.js';
-//  import characterRoutes from './src/routes/character.routes.js';
+ import characterRoutes from './src/routes/characters.routes.js';
  dotenv.config();
 
  const app = express();
  app.use(express.json());
 
-//  app.use('/api/characters', characterRoutes);
+ app.use('/api/characters', characterRoutes);
 
  const PORT = process.env.PORT || 4000;
 

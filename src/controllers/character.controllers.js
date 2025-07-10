@@ -1,4 +1,4 @@
-import Character from "../models/characters.model.js";
+import Character from "../models/character.model.js";
 
 //funcion para ver si s un valor es un entero
 function isInteger(value) {

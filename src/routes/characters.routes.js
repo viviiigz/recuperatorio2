@@ -5,7 +5,7 @@ import {
   createCharacter,
   updateCharacter,
   deleteCharacter,
-} from "../controllers/characters.controllers.js";
+} from "../controllers/character.controllers.js";
 
 const router = Router();
 
@@ -16,3 +16,4 @@ router.put("/:id", updateCharacter);
 router.delete("/:id", deleteCharacter);
 
 export default router;
+//finnnn
